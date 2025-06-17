@@ -12,6 +12,6 @@ export default defineNuxtConfig({
     enableRouterSync: true
   },
   nitro: {
-    preset: 'node-server'
+    preset: 'netlify'
   }
 })
