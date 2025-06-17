@@ -10,5 +10,8 @@ export default defineNuxtConfig({
     enabled: true,
     debug: true,
     enableRouterSync: true
+  },
+  nitro: {
+    preset: 'node-server'
   }
 })
