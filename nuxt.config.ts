@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     enableRouterSync: true
   },
   nitro: {
-    preset: 'netlify'
-  }
+    compressPublicAssets: true,
+    preset: 'vercel-edge',
+  },
 })
